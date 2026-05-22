@@ -31,7 +31,7 @@
         services_virtualisation
 
         # specialisations_tty
-        specialisations_niri
+        # specialisations_niri
         # specialisations_hyprland
         # specialisations_mango
       ];
