@@ -42,6 +42,7 @@ in
   flake.nixosConfigurations = {
     desktop = mkNixos "desktop" { };
     framework = mkNixos "framework" { };
+    igloo = mkNixos "igloo" { };
     xps = mkNixos "xps" { };
     # VMs from config
     vm = mkVm "vm" { };
