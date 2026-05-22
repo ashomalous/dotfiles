@@ -69,15 +69,15 @@
         };
 
         # don't blind me on startup
-        startup = [
-          {
-            spawn = [
-              (lib.getExe pkgs.brightnessctl)
-              "s"
-              "20%"
-            ];
-          }
-        ];
+        # startup = [
+        #   {
+        #     spawn = [
+        #       (lib.getExe pkgs.brightnessctl)
+        #       "s"
+        #       "20%"
+        #     ];
+        #   }
+        # ];
       };
 
       networking.hostId = "8425e349"; # required for zfs
