@@ -24,21 +24,21 @@
   };
   helium = {
     pname = "helium";
-    version = "0.12.3.1";
+    version = "0.12.4.1";
     src = fetchurl {
-      url = "https://github.com/imputnet/helium-linux/releases/download/0.12.3.1/helium-0.12.3.1-x86_64.AppImage";
-      sha256 = "sha256-VnOhzhAulvFNBB/0AD1d+K/TzfFL9Zwtk/vcm5vWl+I=";
+      url = "https://github.com/imputnet/helium-linux/releases/download/0.12.4.1/helium-0.12.4.1-x86_64.AppImage";
+      sha256 = "sha256-OgS8HkLBseFrEhNFJxMwp1bg0gzPdfY1VaySAAp7vq0=";
     };
   };
   mango = {
     pname = "mango";
-    version = "0.13.0";
+    version = "0.13.1";
     src = fetchFromGitHub {
       owner = "mangowm";
       repo = "mango";
-      rev = "0.13.0";
+      rev = "0.13.1";
       fetchSubmodules = false;
-      sha256 = "sha256-RBQfeTM8J0AWE+A7vYSIYt0fuLS1kNYZYoocNjKDAeo=";
+      sha256 = "sha256-HohogY2Ec/JyACrQzGtG2GL7D4K5b0Mg5gBBlJXW/2s=";
     };
   };
   mpv-deletefile = {
@@ -87,18 +87,6 @@
       fetchSubmodules = false;
       sha256 = "sha256-2pXT9Wyn49sGHDqjlmlCRUyIIAEERAKNK6cDTUwwjGM=";
     };
-  };
-  yazi-plugins = {
-    pname = "yazi-plugins";
-    version = "5d5c4803dd12bab4e4f19d606f8db0c871e6bec5";
-    src = fetchFromGitHub {
-      owner = "yazi-rs";
-      repo = "plugins";
-      rev = "5d5c4803dd12bab4e4f19d606f8db0c871e6bec5";
-      fetchSubmodules = false;
-      sha256 = "sha256-cZlnrlgv8+SFeNgIW69q//i/apcpvAv41q5W8bJwVaI=";
-    };
-    date = "2026-05-14";
   };
   yazi-time-travel = {
     pname = "yazi-time-travel";
