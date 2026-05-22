@@ -1,6 +1,6 @@
 { lib, ... }@top:
 {
-  flake.modules.nixos.host_framework =
+  flake.modules.nixos.host_igloo =
     { pkgs, ... }:
     {
       imports = with top.config.flake.modules.nixos; [
